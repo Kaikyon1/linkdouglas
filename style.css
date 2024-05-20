@@ -1,0 +1,111 @@
+@charset "UTF-8"
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/990465e4-c5e4-4fe9-b458-e5c72006cdb1.jpg);
+    background-size: cover;
+}
+
+.logo  {
+    height: 340px;
+    margin: auto;
+}
+
+.foto  {
+    border-radius: 50%;
+    height: 150px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+header ul li {
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 50px;
+    font-size: 18px;
+    width: 230px;
+    height: 90px;
+    font-weight: 600;
+    margin: auto;
+    display: flex;
+    border: solid #0168AD 4px;
+    align-items: center;
+    justify-content: space-between;  
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image: url(/6986565-moderno-simples-royal-blue-gradient-abstract-background-quotes-and-presentation-types-based-background-design-it-is-suitable-for-wallpaper-quotes-website-opening-presentation-personal-profile-et.jpg);
+}
+
+button:hover {
+    box-shadow: 3px 3px 10px #0168AD;
+    filter: blur(2px);
+    transform: scale(1.05);
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.txt {
+  font-family: "Alkatra", system-ui;
+  margin: auto;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.seta i {
+    font-size: 70px;
+    text-align: center;
+    color: #0168AD;
+}
+
+
+#arrasta {
+    color: #0168AD;
+    font-size: 15px;
+}
+
+.ony {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    padding: 10px;
+}
+
+span {
+    font-size: 14px;
+    color:#0168AD;
+    font-family: fantasy;
+}
+
+img {
+    height: 20px;    
+}
+
+header .foto {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 10px;
+    }
+}

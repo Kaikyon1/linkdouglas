@@ -1,0 +1,47 @@
+@charset "UTF-8"
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(/990465e4-c5e4-4fe9-b458-e5c72006cdb1.jpg);
+    background-size: cover;
+}
+
+pre {
+    color: white;
+    font-size: 20px;
+}
+
+.txt {
+    color: #0168AD ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.nome {
+    color: #0168AD ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.sobre{
+ color: #0168AD;
+ font-size: 23px;
+ font-family: fantasy;
+}
+
+button {
+    background-color: #0168AD;
+    border-radius: 30px;
+    height:32px;
+    width: 65px;
+    margin-left: 154px;
+}
+
+.voltar button a {
+    font-family: fantasy;
+    color: black;
+    
+}
